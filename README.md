@@ -1,142 +1,64 @@
-\# Flask Simple Calculator App
+# Flask Simple Calculator App
 
+A beginner-friendly Flask web application that performs basic arithmetic
+operations such as addition, subtraction, multiplication, and division.
 
-
-A beginner-friendly Flask web application that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.  
-
-This project is part of my \*\*Flask Beginner Projects\*\* series to strengthen backend fundamentals.
-
-
+This project is part of my **Flask Beginner Projects** series to strengthen
+backend fundamentals.
 
 ---
 
-
-
-\## 🚀 Features
-
-\- Simple and clean UI
-
-\- Performs basic arithmetic operations
-
-\- Flask backend with HTML \& CSS frontend
-
-\- Beginner-friendly project structure
-
-
+## 🚀 Features
+- Simple and clean UI
+- Performs basic arithmetic operations
+- Flask backend with HTML & CSS frontend
+- Beginner-friendly project structure
 
 ---
 
-
-
-\## 🛠️ Tech Stack
-
-\- Python
-
-\- Flask
-
-\- HTML
-
-\- CSS
-
-
+## 🛠️ Tech Stack
+- Python
+- Flask
+- HTML
+- CSS
 
 ---
 
-
-
-\## 📁 Project Structure
-
+## 📁 Project Structure
 SIMPLECALCULATORAPP/
-
 │
-
 ├── app.py
-
 ├── templates/
-
 │ └── calculator.html
-
-│
-
 ├── static/
-
 │ └── css/
-
 │ └── style.css
-
-│
-
 ├── venv/
-
 └── README.md
 
 
-
 ---
 
+## ▶️ How to Run the Project
 
-
-\## ▶️ How to Run the Project
-
-
-
-1\. Clone the repository
-
+### 1️⃣ Clone the repository
 ```bash
-
 git clone https://github.com/sathwikarudroju05/flask-simple-calculator.git
 
-Navigate to the project folder
-
-
-
+2️⃣ Navigate to the project folder
 cd flask-simple-calculator
 
-
-
-
-
-Create and activate virtual environment
-
-
-
+3️⃣ Create and activate virtual environment
 python -m venv venv
+venv\Scripts\activate
 
-venv\\Scripts\\activate
-
-
-
-
-
-Install Flask
-
-
-
+4️⃣ Install Flask
 pip install flask
 
-
-
-
-
-Run the app
-
-
-
+5️⃣ Run the application
 python app.py
 
-
-
-
-
-Open browser and visit
-
-
-
+6️⃣ Open in browser
 http://127.0.0.1:5000/
 
-
-
-
-
-
-
+👩‍💻 Created by Rudroju Sathwika
