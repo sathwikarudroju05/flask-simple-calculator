@@ -1,10 +1,11 @@
 # Flask Simple Calculator App
 
-A beginner-friendly Flask web application that performs basic arithmetic
-operations such as addition, subtraction, multiplication, and division.
+A clean and beginner-friendly Flask web application that performs basic
+arithmetic operations such as addition, subtraction, multiplication,
+and division through a simple web interface.
 
 This project is part of my **Flask Beginner Projects** series to strengthen
-backend fundamentals.
+backend fundamentals using Flask.
 
 ---
 
@@ -36,29 +37,51 @@ SIMPLECALCULATORAPP/
 ├── venv/
 └── README.md
 
-
 ---
 
 ## ▶️ How to Run the Project
 
-### 1️⃣ Clone the repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/sathwikarudroju05/flask-simple-calculator.git
-
-2️⃣ Navigate to the project folder
 cd flask-simple-calculator
 
-3️⃣ Create and activate virtual environment
+### 2. Create & Activate Virtual Environment
 python -m venv venv
 venv\Scripts\activate
 
-4️⃣ Install Flask
+3. Install Flask
 pip install flask
 
-5️⃣ Run the application
+4. Run the Application
 python app.py
 
-6️⃣ Open in browser
+
+Open your browser and visit:
+
 http://127.0.0.1:5000/
 
-👩‍💻 Created by Rudroju Sathwika
+🧠 How It Works
+
+User inputs numbers and selects an operation
+
+Flask handles the calculation logic
+
+Result is returned and displayed dynamically
+
+HTML templates render output
+
+CSS improves UI appearance
+
+📌 Notes
+
+Beginner-level Flask project
+
+Focused on understanding routes and templates
+
+Code is simple and readable
+
+👩‍💻 Author
+
+Rudroju Sathwika
+Flask Beginner Projects
